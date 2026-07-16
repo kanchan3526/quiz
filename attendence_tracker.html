@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Attendance</title>
+    <style>
+        body { font-family: Arial; background:#f0f0f0; padding:20px; }
+        h1 { text-align:center; }
+        .box {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .student {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        button:hover { background:#555; }
+    </style>
+</head>
+
+<body>
+
+<h1>Student Attendance Tracker</h1>
+
+<div class="box">
+    <div class="student">
+        <span>Rohan</span>
+        <input type="checkbox">
+    </div>
+    <div class="student">
+        <span>Ayesha</span>
+        <input type="checkbox">
+    </div>
+    <div class="student">
+        <span>Deepak</span>
+        <input type="checkbox">
+    </div>
+    <div class="student">
+        <span>Kajol</span>
+        <input type="checkbox">
+    </div>
+
+    <button>Save Attendance</button>
+</div>
+
+</body>
+</html>
