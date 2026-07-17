@@ -1,4 +1,5 @@
 from random import choice
+
 bond_quotes = {
     "BFF": [
         "BFFs forever, no matter what.",
@@ -10,7 +11,7 @@ bond_quotes = {
         "Life is better with a BFF.",
         "BFFs are the chosen family.",
         "A BFF knows your heart.",
-        "Best friends, endless adventures."
+        "Best friends, endless adventures.",
     ],
     "Buddy": [
         "Good buddies make the day brighter.",
@@ -22,7 +23,7 @@ bond_quotes = {
         "A buddy knows the simple joys.",
         "Buddy moments are casual magic.",
         "Buddies bring comfort, not complications.",
-        "A buddy makes ordinary days special."
+        "A buddy makes ordinary days special.",
     ],
     "Pal": [
         "A pal makes hard times lighter.",
@@ -34,7 +35,7 @@ bond_quotes = {
         "A pal adds laughter to the day.",
         "Pals turn ordinary into extraordinary.",
         "A true pal never judges.",
-        "Pals stay through ups and downs."
+        "Pals stay through ups and downs.",
     ],
     "Mate": [
         "Mates make adventures memorable.",
@@ -46,7 +47,7 @@ bond_quotes = {
         "Mates make dull days bright.",
         "A mate turns small plans into big memories.",
         "Mates are life’s bonus.",
-        "A mate sticks even in silence."
+        "A mate sticks even in silence.",
     ],
     "Confidant": [
         "A confidant listens without judgment.",
@@ -58,7 +59,7 @@ bond_quotes = {
         "Confidants are rare and precious.",
         "True confidants never betray trust.",
         "A confidant makes tough choices easier.",
-        "Confidants turn pain into relief."
+        "Confidants turn pain into relief.",
     ],
     "Lifelong": [
         "Lifelong friends know your roots.",
@@ -70,7 +71,7 @@ bond_quotes = {
         "Time strengthens lifelong bonds.",
         "Lifelong friends are irreplaceable.",
         "Laughs with lifelong friends never fade.",
-        "A lifelong friend feels like home."
+        "A lifelong friend feels like home.",
     ],
     "Sidekick": [
         "Sidekicks make every adventure better.",
@@ -82,7 +83,7 @@ bond_quotes = {
         "A sidekick makes fear fun.",
         "Every plan is brighter with a sidekick.",
         "Sidekicks stay when others run.",
-        "Sidekicks add color to life."
+        "Sidekicks add color to life.",
     ],
     "NetBuddy": [
         "NetBuddies bridge the distance.",
@@ -94,7 +95,7 @@ bond_quotes = {
         "Digital hugs from NetBuddies matter.",
         "A NetBuddy listens at any time.",
         "NetBuddies turn lonely nights into fun.",
-        "Online friends are real friends too."
+        "Online friends are real friends too.",
     ],
     "Supporter": [
         "Supporters lift you when you fall.",
@@ -106,7 +107,7 @@ bond_quotes = {
         "Supporters believe in you silently.",
         "Supporters make hard times bearable.",
         "A supporter adds hope and strength.",
-        "Supporters turn struggles into victories."
+        "Supporters turn struggles into victories.",
     ],
     "Companion": [
         "A companion walks with you through life.",
@@ -118,8 +119,8 @@ bond_quotes = {
         "Every step is lighter with a companion.",
         "Companions stay even when paths diverge.",
         "A companion is a heart beside yours.",
-        "Companions make life meaningful."
-    ]
+        "Companions make life meaningful.",
+    ],
 }
 print("=== Friendship Bond Types ===")
 for i, bond in enumerate(bond_quotes.keys(), 1):
